@@ -1,0 +1,38 @@
+ *;
+ html{
+    margin: 0;
+    padding: 0;
+ }
+ .menu{
+     list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+ }
+.menu a {
+     text-decoration: none;
+     color: white;
+    font-weight: bold;
+
+}
+body{
+    background-color: limegreen;
+}
+.containner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:greenyellow;
+    color: white;
+    font-weight: bold;
+}
+h2 {
+    background-color: yellowgreen;
+}

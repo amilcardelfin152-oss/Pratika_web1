@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LISTA</title>
+</head>
+<body>
+    <h2>aprende list</h2>
+
+<ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+</ol>
+<ol type="A">
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+    <li>item 4</li>
+    <li>item 5</li>
+</ol>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+</ul>
+
+<ol>
+    <li>Login</li>
+    <li>Dashboard</li>
+</ol>
+
+<!-- tabela -->  
+
+<table border="4" cellspacing="0" witdh="100% ">
+    <tr>
+        <th>Naran</th>
+        <th>tinan</th>
+        <th>departamentu</th>
+    </tr>
+
+    <tr>
+        <td>Amilcar</td>
+        <td>20</td>
+        <td>Computer Science</td>
+    </tr>
+
+    <tr>
+        <td>Mateus</td>
+        <td>21</td>
+        <td>civil engineering</td>
+    </tr>
+</table>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tabel Absensi Mahasiswa</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .info {
+            margin-bottom: 15px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 6px;
+            font-size: 12px;
+        }
+
+        th {
+            background-color: #d9e2f3;
+        }
+
+        .nama {
+            text-align: left;
+            min-width: 180px;
+        }
+
+        .nim {
+            min-width: 120px;
+        }
+
+        .aula {
+            background-color: #c9daf8;
+        }
+
+        .hadir {
+            font-size: 18px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+
+        <!-- HEADER PERTAMA -->
+        <tr>
+            <th rowspan="2">NO</th>
+            <th rowspan="2">NARAN</th>
+            <th rowspan="2">NIM</th>
+
+            <!-- 17 kolom digabung menjadi AULA -->
+            <th colspan="17" class="aula">AULA</th>
+
+            <th rowspan="2">TTS</th>
+            <th rowspan="2">TAS</th>
+        </tr>
+
+        <!-- HEADER KEDUA -->
+        <tr>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th>12</th>
+            <th>13</th>
+            <th>14</th>
+            <th>15</th>
+            <th>16</th>
+            <th>17</th>
+        </tr>
+
+        <!-- DATA 1 -->
+        <tr>
+            <td>1</td>
+            <td class="nama">Adilson Maria de Oliveira</td>
+            <td class="nim">250102011001</td>
+
+            <td class="hadir">✓</td>
+            <td>×</td>
+            <td>✓</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+        </tr>
+
+        <!-- DATA 2 -->
+        <tr>
+            <td>2</td>
+            <td class="nama">Adriano D. Dos S. Salu</td>
+            <td class="nim">250102011002</td>
+
+            <td class="hadir">✓</td>
+            <td>×</td>
+            <td>✓</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+        </tr>
+
+        <!-- DATA 3 -->
+        <tr>
+            <td>3</td>
+            <td class="nama">Alexandro R. de Jesus Taek</td>
+            <td class="nim">250102011003</td>
+
+            <td class="hadir">✓</td>
+            <td>×</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+        </tr>
+
+        <!-- DATA 4 -->
+        <tr>
+            <td>4</td>
+            <td class="nama">Amilcar Delfin da Costa</td>
+            <td class="nim">250102011004</td>
+
+            <td class="hadir">✓</td>
+            <td>×</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
+</body>
